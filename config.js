@@ -1,13 +1,14 @@
 module.exports = {
 	
 	"local" : { 
-		"brpwser" 		: "chrome",
+		"brpwser" 		: "firefox",
 		"url"			: "http://www.kevinlamping.com/webdriverio-course-content/",
 		"timeout" 		: 10000,
 		"hostAddres" 	: "localhost",
 		"reporters" 	: ['dot', 'spec','json','allure'],
 		"loglevel" 		: "silent",
-		"reportPath" 	: "./reports",
+		"reportPath" 	: ".",
+		"allurereportPath" : "./reports/allure-results"
 		
 	},
 
@@ -18,7 +19,7 @@ module.exports = {
 		"hostAddres" 	: "localhost",
 		"reporters"  	: ['allure', 'junit'],
 		"loglevel"   	: "verbose",
-		"reportPath" 	: "./reports",
+		"reportPath" 	: ".",
 		"allurereportPath" : "./reports/allure-results"
 		
 	}
