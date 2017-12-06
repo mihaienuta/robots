@@ -7,7 +7,7 @@ module.exports = {
 		"hostAddres" 	: "localhost",
 		"reporters" 	: ['dot', 'spec','json','allure'],
 		"loglevel" 		: "silent",
-		"reportPath" 	: ".",
+		"reportPath" 	: "./reports",
 		"allurereportPath" : "./reports/allure-results"
 		
 	},
@@ -19,7 +19,7 @@ module.exports = {
 		"hostAddres" 	: "localhost",
 		"reporters"  	: ['allure', 'junit'],
 		"loglevel"   	: "verbose",
-		"reportPath" 	: ".",
+		"reportPath" 	: "./reports",
 		"allurereportPath" : "./reports/allure-results"
 		
 	}
