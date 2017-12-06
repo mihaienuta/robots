@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 
 
-describe('Robots Suite 1', function() {
+describe('Robots Suite 2 - purchase', function() {
 
   browser.addCommand("isNotDisplayed", function(value) {
       var exists = browser.isVisible(value)
