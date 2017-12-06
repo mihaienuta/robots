@@ -1,0 +1,262 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1512483973059' stop='1512483977895'>
+    <name>Robots Suite 1</name>
+    <title>Robots Suite 1</title>
+    <test-cases>
+        <test-case start='1512483973059' status='passed' stop='1512483974385'>
+            <name>Open the browser</name>
+            <title>Open the browser</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483973059' status='passed' stop='1512483974383'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/url</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='aab4cc18-4988-4c92-b007-399dca02e9a7-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='943d39c8-2430-4207-95a6-687859675593-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1512483974385' status='broken' stop='1512483975227'>
+            <name>Go to Products page</name>
+            <title>Go to Products page</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483974387' status='passed' stop='1512483974414'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a08cf4f-59ba-435d-8273-70d61d573f8e-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='c9bfd16f-f47a-48c8-9485-6322591d60d9-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483974414' status='passed' stop='1512483974487'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-1/click</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='4bfdbe17-01a8-4a19-9d7c-712a3eb74e3a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483974488' status='passed' stop='1512483974521'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c0107e7-8d36-45ae-bceb-3277812a9ee0-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='45d37a94-0a66-4b37-90f5-f7dc525ef547-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483974522' status='passed' stop='1512483974552'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-2/click</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='0d1a0f72-5cd2-48be-b7b8-cd3454017fdf-attachment.json' type='application/json' size='482'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483974553' status='passed' stop='1512483975215'>
+                    <name>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</name>
+                    <title>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8047e1c6-5598-48d2-aa59-c826e4c573b8-attachment.png' type='image/png' size='716629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not visible</message>
+                <stack-trace>Error: An element command could not be completed because the element is not visible on the page.
+                    at elementIdClick("0.9681994893797137-2") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1512483975243' status='broken' stop='1512483975877'>
+            <name>Select Robot Model and Quantity</name>
+            <title>Select Robot Model and Quantity</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483975248' status='passed' stop='1512483975276'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ce8f5943-6c8a-4991-ad4f-326b05937c1a-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='6dbcbdc2-f850-49d1-b5a6-af7e5e407f93-attachment.json' type='application/json' size='606'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483975276' status='passed' stop='1512483975862'>
+                    <name>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</name>
+                    <title>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3ef01775-3cf9-41ba-803e-180f777ec934-attachment.png' type='image/png' size='716629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters.</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters.
+                    at selectByAttribute("#robotType", "value", "husker") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\selectByValue.js:40:17
+                    at selectByValue("#robotType", "husker") -     at C:\selenium-training\node_modules\wdio-sync\build\at element("#robotType") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\selectByAttribute.js:22:17</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1512483975909' status='broken' stop='1512483976547'>
+            <name>Purchase Robots</name>
+            <title>Purchase Robots</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483975909' status='passed' stop='1512483975931'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='69d7f0f6-dc03-4567-9fa8-4d4f65a02c32-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='ab5d8d20-6c94-4abf-b0ed-271eb3578d62-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483975931' status='passed' stop='1512483976510'>
+                    <name>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</name>
+                    <title>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f4a1871d-9249-442a-b856-36121a1d2e44-attachment.png' type='image/png' size='716629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#buyNowButton").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#buyNowButton").
+                    at isEnabled("#buyNowButton") -     at C:\selenium-training\node_modules\wdio-sync\build\at elements("#buyNowButton") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\isEnabled.js:18:17</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1512483976547' status='broken' stop='1512483977163'>
+            <name>Verify Purchase is successful</name>
+            <title>Verify Purchase is successful</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483976547' status='passed' stop='1512483976563'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4f17c15a-1104-4435-ac2f-491f79a02cbb-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='310533d2-eb82-4318-8073-22dafc085ffe-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483976563' status='passed' stop='1512483977148'>
+                    <name>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</name>
+                    <title>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1eadd0a2-1fac-4634-904d-f5b336b38094-attachment.png' type='image/png' size='716629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#buyNowButton").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#buyNowButton").
+                    at getText("#buyNowButton") -     at C:\selenium-training\node_modules\wdio-sync\build\at elements("#buyNowButton") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\getText.js:18:17</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1512483977177' status='broken' stop='1512483977833'>
+            <name>Close Notification</name>
+            <title>Close Notification</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483977182' status='passed' stop='1512483977214'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0e2b6f0b-e761-4684-b141-c4a918bf0a26-attachment.json' type='application/json' size='83'/>
+                        <attachment title='Response' source='ad624d14-1707-47dd-abbd-8012849a2de6-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483977214' status='passed' stop='1512483977232'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-3/click</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/element/0.9681994893797137-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='eaba4bd7-6d57-47b9-a78d-2b8e05f0bca4-attachment.json' type='application/json' size='482'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483977232' status='passed' stop='1512483977809'>
+                    <name>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</name>
+                    <title>GET /wd/hub/session/06373b355a056cf263e778bbf4651ac3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8b5ec0bc-cfb5-4d92-ac42-d28e96148d03-attachment.png' type='image/png' size='716629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not visible</message>
+                <stack-trace>Error: An element command could not be completed because the element is not visible on the page.
+                    at elementIdClick("0.9681994893797137-3") - C:\selenium-training\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1512483977848' status='passed' stop='1512483977895'>
+            <name>Verify Notification is Closed</name>
+            <title>Verify Notification is Closed</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\selenium-training\\test\\specs\\robots_purchase.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1512483977848' status='passed' stop='1512483977880'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3fa35f3f-1439-435f-ac45-f531e67942a6-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='eeac2ba6-c8f2-427a-a694-7da641c562f0-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1512483977880' status='passed' stop='1512483977895'>
+                    <name>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</name>
+                    <title>POST /wd/hub/session/06373b355a056cf263e778bbf4651ac3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1f544802-d8db-4e64-a2ed-020950c57b84-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='abf37502-ba92-40a7-97e8-4b4b7b62fdde-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

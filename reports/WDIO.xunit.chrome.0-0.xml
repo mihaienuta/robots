@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="robots_suite_1" timestamp="2017-12-05T19:48:49" time="4.15" tests="7" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="302e87fd7deb63c5516474422972966d"/>
+      <property name="suiteName" value="Robots Suite 1"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\specs\robots_purchase.js"/>
+    </properties>
+    <testcase classname="chrome.robots_suite_1" name="open_the_browser" time="0.879">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/url - {"url":"http://www.kevinlamping.com/webdriverio-course-content/"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="go_to_products_page" time="1.062">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element - {"using":"css selector","value":"ul.menu.dropdown a[href=\"#\"]"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.7830368871238549-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.7830368871238549-1/click - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element - {"using":"css selector","value":"ul[role=\"menu\"] li:nth-child(1)"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.7830368871238549-2"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.7830368871238549-2/click - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="select_robot_model_and_quantity" time="0.232">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element - {"using":"id","value":"robotType"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.4497274057971312-1"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-1/element - {"using":"xpath","value":"./option[normalize-space(@value) = \"husker\"]|./optgroup/option[normalize-space(@value) = \"husker\"]"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.4497274057971312-2"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-2/click - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"css selector","value":"div[class=\"small-9 columns\"] input"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-3"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-3/clear - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-3/value - {"value":["1","5"],"text":"15"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="purchase_robots" time="0.133">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/enabled - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.4497274057971312-4"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/click - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="verify_purchase_is_successful" time="1.724">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Purchasing..."}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Purchasing..."}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Purchasing..."}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Purchasing..."}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Buy Now"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"id","value":"buyNowButton"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-4"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-4/enabled - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":false}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"css selector","value":"div[class=\"callout\"]"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-5"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-5/text - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":"Thank you human for your purchase of 15 T-800 Model 101 robot(s).\n×"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"css selector","value":"button[class=\"close-button\"] span"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[{"ELEMENT":"0.4497274057971312-6"},{"ELEMENT":"0.4497274057971312-7"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-6/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-7/displayed - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":false}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":true}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="close_notification" time="0.082">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element - {"using":"css selector","value":"button[class=\"close-button\"] span"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":{"ELEMENT":"0.4497274057971312-6"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/element/0.4497274057971312-6/click - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.robots_suite_1" name="verify_notification_is_closed" time="0.037">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"css selector","value":"div[class=\"callout\"]"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092/elements - {"using":"css selector","value":"div[class=\"callout\"]"}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":[]}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/ea27cc4d4eee8f6db3aa3a247cc07092 - {}
+RESULT: {"sessionId":"ea27cc4d4eee8f6db3aa3a247cc07092","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

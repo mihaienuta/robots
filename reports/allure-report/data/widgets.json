@@ -1,0 +1,64 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "time" : {
+      "start" : 1512466848628,
+      "stop" : 1512466852988,
+      "duration" : 4360,
+      "minDuration" : 39,
+      "maxDuration" : 2218,
+      "sumDuration" : 4359
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[\"--start-fullscreen\"]}}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"C:\\\\selenium-training\\\\test\\\\specs\\\\robots_purchase.js\"]" ],
+    "name" : "spec files"
+  } ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "7010614c64af0d4283beea8f06a5676e",
+      "name" : "Robots Suite 1",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ],
+  "behaviors" : {
+    "total" : 7,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

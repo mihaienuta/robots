@@ -1,0 +1,89 @@
+{
+  "uid" : "20c4e9d067d45e4e",
+  "name" : "Open the browser",
+  "fullName" : "Robots Suite 1.Open the browser",
+  "historyId" : "d3a5234a885fdb348670af8f81f61e7",
+  "time" : {
+    "start" : 1512466848628,
+    "stop" : 1512466849457,
+    "duration" : 829
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/url",
+      "time" : {
+        "start" : 1512466848677,
+        "stop" : 1512466849455,
+        "duration" : 778
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d3d8b36b53457b4",
+        "name" : "Request",
+        "source" : "4d3d8b36b53457b4.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "8322685626b423d3",
+        "name" : "Response",
+        "source" : "8322685626b423d3.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open the browser"
+  }, {
+    "name" : "package",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20c4e9d067d45e4e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

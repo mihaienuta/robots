@@ -1,0 +1,116 @@
+{
+  "uid" : "ce309ca6550e968e",
+  "name" : "Verify Notification is Closed",
+  "fullName" : "Robots Suite 1.Verify Notification is Closed",
+  "historyId" : "5ecc781639a7e9795ef212571b6cb146",
+  "time" : {
+    "start" : 1512466852949,
+    "stop" : 1512466852988,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/elements",
+      "time" : {
+        "start" : 1512466852951,
+        "stop" : 1512466852967,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9dc87b83d9b6f701",
+        "name" : "Request",
+        "source" : "9dc87b83d9b6f701.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "858273e4660adf29",
+        "name" : "Response",
+        "source" : "858273e4660adf29.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/elements",
+      "time" : {
+        "start" : 1512466852970,
+        "stop" : 1512466852987,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da982e8f54077033",
+        "name" : "Request",
+        "source" : "da982e8f54077033.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "fe8c137a9798633c",
+        "name" : "Response",
+        "source" : "fe8c137a9798633c.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Notification is Closed"
+  }, {
+    "name" : "package",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce309ca6550e968e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

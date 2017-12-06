@@ -1,0 +1,212 @@
+{
+  "uid" : "bd33efdb7d346622",
+  "name" : "Select Robot Model and Quantity",
+  "fullName" : "Robots Suite 1.Select Robot Model and Quantity",
+  "historyId" : "e61ce8980b401248edeaec5a786945f",
+  "time" : {
+    "start" : 1512466850247,
+    "stop" : 1512466850476,
+    "duration" : 229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element",
+      "time" : {
+        "start" : 1512466850250,
+        "stop" : 1512466850279,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f59e23b18cf20bd5",
+        "name" : "Request",
+        "source" : "f59e23b18cf20bd5.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "4da6644962560339",
+        "name" : "Response",
+        "source" : "4da6644962560339.json",
+        "type" : "application/json",
+        "size" : 138
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.004861171869327663-1/element",
+      "time" : {
+        "start" : 1512466850279,
+        "stop" : 1512466850293,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "615bbc259629a550",
+        "name" : "Request",
+        "source" : "615bbc259629a550.json",
+        "type" : "application/json",
+        "size" : 143
+      }, {
+        "uid" : "bd941745cb928a5f",
+        "name" : "Response",
+        "source" : "bd941745cb928a5f.json",
+        "type" : "application/json",
+        "size" : 138
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.004861171869327663-2/click",
+      "time" : {
+        "start" : 1512466850293,
+        "stop" : 1512466850348,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "497f2433116f49ef",
+        "name" : "Response",
+        "source" : "497f2433116f49ef.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/elements",
+      "time" : {
+        "start" : 1512466850351,
+        "stop" : 1512466850375,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "222ab21b40239b61",
+        "name" : "Request",
+        "source" : "222ab21b40239b61.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "81446b43fce38ce4",
+        "name" : "Response",
+        "source" : "81446b43fce38ce4.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.004861171869327663-3/clear",
+      "time" : {
+        "start" : 1512466850375,
+        "stop" : 1512466850416,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1279bfc2fc502dfe",
+        "name" : "Response",
+        "source" : "1279bfc2fc502dfe.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.004861171869327663-3/value",
+      "time" : {
+        "start" : 1512466850416,
+        "stop" : 1512466850474,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f01fbe0e112e4023",
+        "name" : "Request",
+        "source" : "f01fbe0e112e4023.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "110a66427380d094",
+        "name" : "Response",
+        "source" : "110a66427380d094.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select Robot Model and Quantity"
+  }, {
+    "name" : "package",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd33efdb7d346622.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

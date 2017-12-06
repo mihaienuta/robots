@@ -1,0 +1,158 @@
+{
+  "uid" : "684dae25c35b06b9",
+  "name" : "Go to Products page",
+  "fullName" : "Robots Suite 1.Go to Products page",
+  "historyId" : "eb93b3b83157cea8b0caf155ff1afc9b",
+  "time" : {
+    "start" : 1512466849457,
+    "stop" : 1512466850247,
+    "duration" : 790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element",
+      "time" : {
+        "start" : 1512466849462,
+        "stop" : 1512466849502,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "728d1de333b36181",
+        "name" : "Request",
+        "source" : "728d1de333b36181.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "4db6ef6a8aa51679",
+        "name" : "Response",
+        "source" : "4db6ef6a8aa51679.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.6708980237593751-1/click",
+      "time" : {
+        "start" : 1512466849502,
+        "stop" : 1512466849569,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a8601f382238156",
+        "name" : "Response",
+        "source" : "9a8601f382238156.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element",
+      "time" : {
+        "start" : 1512466849570,
+        "stop" : 1512466849611,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6861ffe9d705d58e",
+        "name" : "Request",
+        "source" : "6861ffe9d705d58e.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "67a0f84a3e122df8",
+        "name" : "Response",
+        "source" : "67a0f84a3e122df8.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/2c46ffab8edf0abf04d46320999a44c3/element/0.6708980237593751-2/click",
+      "time" : {
+        "start" : 1512466849611,
+        "stop" : 1512466850245,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4faa4809e664a053",
+        "name" : "Response",
+        "source" : "4faa4809e664a053.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testClass",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Products page"
+  }, {
+    "name" : "package",
+    "value" : "Robots Suite 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "684dae25c35b06b9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

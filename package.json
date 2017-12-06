@@ -1,0 +1,24 @@
+{
+  "name": "selenium-training",
+  "version": "1.0.0",
+  "description": "Computaris Selenium Automation Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "Mihai Enuta",
+  "license": "MIT",
+  "devDependencies": {
+    "allure-commandline": "^2.3.5",
+    "chai": "^4.1.2",
+    "selenium-standalone": "^6.11.0",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-doc-reporter": "^1.0.5",
+    "wdio-json-reporter": "^0.2.1",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.8.0"
+  }
+}

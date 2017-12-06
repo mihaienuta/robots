@@ -1,0 +1,89 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Verify Notification is Closed",
+    "uid" : "ce309ca6550e968e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466852949,
+      "stop" : 1512466852988,
+      "duration" : 39
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Close Notification",
+    "uid" : "cbee0bfaccebc675",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466852857,
+      "stop" : 1512466852949,
+      "duration" : 92
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Go to Products page",
+    "uid" : "684dae25c35b06b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466849457,
+      "stop" : 1512466850247,
+      "duration" : 790
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Purchase is successful",
+    "uid" : "d41279046174e9b2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466850639,
+      "stop" : 1512466852857,
+      "duration" : 2218
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Select Robot Model and Quantity",
+    "uid" : "bd33efdb7d346622",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466850247,
+      "stop" : 1512466850476,
+      "duration" : 229
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Purchase Robots",
+    "uid" : "4d3911197e6a2049",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466850477,
+      "stop" : 1512466850639,
+      "duration" : 162
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open the browser",
+    "uid" : "20c4e9d067d45e4e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1512466848628,
+      "stop" : 1512466849457,
+      "duration" : 829
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
